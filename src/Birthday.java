@@ -1,8 +1,17 @@
 /**
  * This file is part of a solution to
- * CPSC 281 Assignment 1, Fall 2025
+ * CPSC 281 Assignment 1 Question 1, Fall 2025
  *
  * <p> Implements a Birthday class that stores a person's name and birthday
+ * <p> with methods for:
+ * <p> getting the name
+ * <p> getting the day
+ * <p> getting the month
+ * <p> checking if two birthdays are on the same day and month
+ * <p> checking to see if there are any matching birthdays in an array (birthday paradox)
+ * <p> checking if the birthday is legal
+ * <p> generating an array of random birthdays
+ * <p> printing the birthday as a string
  *
  * @author Tristen Sandhu
  * Student Number: 230165842
@@ -73,7 +82,7 @@ public class Birthday {
     }
 
     /**
-     * gets the month of the year as a string
+     * gets the month as a string
      * @return string month of year
      */
     public String getMonth() {

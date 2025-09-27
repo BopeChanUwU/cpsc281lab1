@@ -1,8 +1,12 @@
 /**
  * This file is part of a solution to
- * CPSC 281 Assignment 1, Fall 2025
+ * CPSC 281 Assignment 1 Question 3, Fall 2025
  *
- * <p> Implements a Birthday class that stores a person's name and birthday
+ * <p> Implements a TriDiagonalMatrix class that stores a tridiagonal matrix efficiently
+ * <p> with methods for:
+ * <p> getting a value at (i,j) 
+ * <p> storing a value at (i,j)
+ * <p> printing the matrix as nxn
  *
  * @author Tristen Sandhu
  * Student Number: 230165842
@@ -40,7 +44,7 @@ public class TriDiagonalMatrix {
      * gets the value of the tri-diagonal matrix at position (i,j)
      * @param i int row index (1-n)
      * @param j int column index (1-n)
-     * @return
+     * @return int value at (i,j), or 0 if outside the tridiagonal
      */
     public int getValue(int i, int j) {
         int row = i-1;

@@ -1,8 +1,8 @@
 /**
  * This file is part of a solution to
- * CPSC 281 Assignment 1, Fall 2025
+ * CPSC 281 Assignment 1 Question 1 Test, Fall 2025
  *
- * <p> Implements a Birthday class that stores a person's name and birthday
+ * <p> Implements a BirthdayTest class demonstrating the Birthday class
  *
  * @author Tristen Sandhu
  * Student Number: 230165842
